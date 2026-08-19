@@ -1,12 +1,3 @@
-"""Start both custom action servers in one node.
-
-Run AFTER the maze simulation is up:
-
-    ros2 launch maze_control maze_simulation_tb3.launch.py
-    ros2 launch maze_solver maze_solver_servers.launch.py
-    ros2 run maze_solver maze_client.py
-"""
-
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration
