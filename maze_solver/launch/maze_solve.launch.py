@@ -1,11 +1,3 @@
-"""Start action servers, then (optionally) the maze client.
-
-The Gazebo maze launch must already be running in another terminal:
-
-    ros2 launch maze_control maze_simulation_tb3.launch.py
-    ros2 launch maze_solver maze_solve.launch.py
-"""
-
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, TimerAction
 from launch.conditions import IfCondition
