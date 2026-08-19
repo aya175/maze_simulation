@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-"""High-level maze controller: action client + wall service, with solve_maze()."""
-
 import math
 import time
 
