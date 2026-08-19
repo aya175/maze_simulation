@@ -1,0 +1,11 @@
+# Goal: how far to drive forward (metres). Negative = backward.
+float64 distance
+---
+# Result: final outcome once the action ends (success, abort, or cancel)
+bool success
+string message
+float64 final_distance_travelled
+---
+# Feedback: published periodically while the action is executing
+float64 distance_travelled
+float64 distance_remaining

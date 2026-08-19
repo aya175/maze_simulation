@@ -1,0 +1,12 @@
+# Goal: how far to rotate (radians), relative to current heading.
+# Positive = counter-clockwise (left turn), negative = clockwise (right turn).
+float64 target_yaw
+---
+# Result
+bool success
+string message
+float64 final_yaw_turned
+---
+# Feedback
+float64 yaw_turned
+float64 yaw_remaining
