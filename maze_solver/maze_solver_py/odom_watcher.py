@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""Subscribe to odometry and expose pose + liveness for the action servers.
-
-Odometry is a proprioceptive estimate (wheel/IMU integration in sim). Action
-servers use it as ground truth for "how far did I actually move", and to detect
-a missing or dead sensor.
-"""
-
 import math
 import threading
 import time
