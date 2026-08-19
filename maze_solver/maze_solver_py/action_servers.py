@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-"""Single node with both maze action servers (move_robot_x and move_robot_yaw).
-
-Publishes /cmd_vel, subscribes to /odom, aborts on missing/stale odom or timeout.
-"""
-
 import math
 import time
 
