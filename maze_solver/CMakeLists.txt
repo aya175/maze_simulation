@@ -18,8 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
 ament_export_dependencies(rosidl_default_runtime)
 
-# Hand-written Python must not be named "maze_solver": that name is used by
-# the generated action interface package.
+
 ament_python_install_package(maze_solver_py)
 
 install(PROGRAMS
